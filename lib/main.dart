@@ -51,6 +51,16 @@ class MainApp extends StatelessWidget {
                Icon(Icons.mail, color: Colors.teal, size: 40),
               ],
             ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text('Titre principal', style: TextStyle(fontSize: 25)),
+                SizedBox(height: 20),
+                Text('Sous-titre ou description'),
+                Icon(Icons.thumb_up, color: Colors.green, size: 40)
+              ],
+            ),
            ],
           ),
         ),
